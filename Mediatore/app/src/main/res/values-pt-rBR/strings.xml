@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mediatore</string>
+    <string name="navigation_drawer_open">Abrir Menu Lateral</string>
+    <string name="navigation_drawer_close">Fechar Menu Lateral</string>
+    <string name="nav_header_title">Mediatore</string>
+    <string name="nav_header_subtitle">contato@mediat.ore</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="action_settings">Configurações</string>
+    <string name="my_history">Meu histórico</string>
+    <string name="medic">Médico</string>
+    <string name="especialization">Especialização</string>
+    <string name="hour">Hora</string>
+    <string name="date">Data</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="create_account">Crair uma conta</string>
+    <string name="login">Entrar</string>
+    <string name="logoff">Sair</string>
+    <string name="user">Usuário</string>
+    <string name="cpf">CPF</string>
+    <string name="document_hint">___.___.___-__</string>
+    <string name="make_appoint">Agendar uma consulta</string>
+    <string name="name">Nome</string>
+    <string name="birthDate">Data de Nascimento</string>
+    <string name="menu_dependent">Dependentes</string>
+    <string name="menu_appointment">Consultas</string>
+    <string name="menu_home">Iniciar</string>
+    <string name="menu_history">Histórico</string>
+    <string name="create_appointment">Nova Consulta</string>
+    <string name="subscribe_dependent">Cadastrar Um Dependente</string>
+    <string name="subscribe">Cadastrar</string>
+    <string name="cpf_dependent">CPF</string>
+    <string name="dependent_name">Nome Completo</string>
+</resources>

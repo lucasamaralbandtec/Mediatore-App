@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bk_main_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_weight="0"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subscribe_dependent"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:text="@string/dependent_name"
+                android:textSize="25dp"
+                android:textColor="#FFFF"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <EditText
+                android:paddingLeft="20dp"
+                android:id="@+id/et_full_name_dependent"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:textColor="#FFFF"
+                android:textSize="25sp"
+
+                android:backgroundTint="#FFFF"
+                android:layout_weight="0"
+
+                android:maxLines="1"
+                android:lines="1"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:text="@string/cpf_dependent"
+                android:textSize="25dp"
+                android:textColor="#FFFF"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/et_cpf_dependent"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:autofillHints="@android:string/paste"
+                android:backgroundTint="#FFFF"
+                android:hint="@string/document_hint"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+
+                android:inputType="number"
+                android:maxLength="11"
+                android:textColor="#FFFF"
+                android:textColorHint="#FFFF"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:text="@string/birthDate"
+                android:textSize="30dp"
+                android:textColor="#FFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <DatePicker
+                android:id="@+id/dp_dependent_date_picker"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:background="@color/white"
+                android:theme="@style/CustomDatePickerDialogTheme"
+                >
+            </DatePicker>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_subscribe_dependent"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:text="@string/subscribe"
+                android:textColor="#FFFF"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="33dp"
+                android:background="@drawable/bk_button_border"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

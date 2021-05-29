@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Mediatore</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mediatore</string>
+    <string name="nav_header_subtitle">contato@mediat.ore</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="my_history">My History</string>
+    <string name="medic">Medic</string>
+    <string name="especialization">Especialization</string>
+    <string name="hour">Hour</string>
+    <string name="date">Date</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create an Account</string>
+    <string name="login">Login</string>
+    <string name="logoff">Logoff</string>
+    <string name="user">User</string>
+    <string name="cpf">CPF</string>
+    <string name="document_hint">___.___.___-__</string>
+    <string name="make_appoint">Make An Appointment</string>
+    <string name="name">Name</string>
+    <string name="birthDate">Birth Date</string>
+
+    <string name="menu_dependent">Dependents</string>
+    <string name="menu_appointment">Appointments</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_history">History</string>
+    <string name="create_appointment">New Appointment</string>
+    <string name="subscribe_dependent">Subscribe A Dependent</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="cpf_dependent">CPF</string>
+    <string name="dependent_name">Full Name</string>
+</resources>
